@@ -13,5 +13,5 @@ export const appRoutes: Routes = [
             {path: 'EiturBuatsaihDan', component: EiturBuatsaihDanComponent},
         ]
     },
-      {path: '**', redirectTo: 'home', pathMatch: 'full'},
+      {path: '**', redirectTo: '', pathMatch: 'full'},
 ];
