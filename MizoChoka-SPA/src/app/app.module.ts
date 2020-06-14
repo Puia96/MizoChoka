@@ -15,6 +15,7 @@ import { RegisterComponent } from './register/register.component';
 import { ErrorInterceptorProvider } from './_services/error.interceptor';
 import { EiturBuatsaihDanComponent } from './EiturBuatsaihDan/EiturBuatsaihDan.component';
 import { appRoutes } from 'src/routes';
+import { DahbelhnaComponent } from './Dahbelhna/Dahbelhna.component';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { appRoutes } from 'src/routes';
       NavComponent,
       HomeComponent,
       RegisterComponent,
-      EiturBuatsaihDanComponent
+      EiturBuatsaihDanComponent,
+      DahbelhnaComponent
    ],
    imports: [
       BrowserModule,

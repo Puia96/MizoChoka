@@ -2,12 +2,18 @@
   <div class="container">
     <a class="navbar-brand" [routerLink]="['/EiturBuatsaihDan']" >Mizo Choka</a>
 
+    <ul *ngIf="!loggedIn()" class="navbar-nav mr-auto">
+      <li class="nav-item" routerLinkActive="active">
+        <a class="nav-link" [routerLink]="['/home']"  >A thar dahbelhna</a>
+      </li>
+    </ul>
+
     <ul *ngIf="loggedIn()" class="navbar-nav mr-auto">
       <li class="nav-item"  routerLinkActive="active">
         <a class="nav-link" [routerLink]="['/EiturBuatsaihDan']" >Eitur buatsaih dan</a>
       </li>
       <li class="nav-item" routerLinkActive="active">
-        <a class="nav-link" [routerLink]="['/home']"  >A thar dahbelhna</a>
+        <a class="nav-link" [routerLink]="['/Dahbelhna']"  >A thar dahbelhna</a>
       </li>
       <!-- <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>

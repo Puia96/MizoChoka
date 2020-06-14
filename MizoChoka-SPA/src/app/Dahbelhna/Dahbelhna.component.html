@@ -1,0 +1,17 @@
+<div class="container mt-5">
+  <div *ngIf="!registerMode" class="text-center">
+    <h1>Eitur chi hrang hrang i ei chak tak tak te kha a siamdan i thiam duh em?</h1>
+    <p class="lead">I tihtur zawng chu maw! Han in thai lut ve phawt mai la!</p>
+    <div class="text-center">
+      <button class="btn btn-primary mr-2" (click)="registerToggle2()">I dah belh dawn chuan hetah hian aw...</button>
+    </div>
+  </div>
+  
+  <div *ngIf="registerMode" class="container">
+    <div class="row justify-content-center">
+      <div class="col-4">
+        <app-register (cancelRegister)="cancelRegisterMode($event)"></app-register>
+      </div>
+    </div>
+  </div>
+</div>
