@@ -4,13 +4,13 @@ import { EiturBuatsaihDanComponent } from './app/EiturBuatsaihDan/EiturBuatsaihD
 import { AuthGuard } from './app/_guards/auth.guard';
 
 export const appRoutes: Routes = [
-    {path: '', component: HomeComponent, },
+    {path: '', component: EiturBuatsaihDanComponent },
     {
         path: '',
         runGuardsAndResolvers: 'always',
         canActivate: [AuthGuard],
         children: [
-            {path: 'EiturBuatsaihDan', component: EiturBuatsaihDanComponent},
+            {path: 'home', component: HomeComponent},
         ]
     },
       {path: '**', redirectTo: '', pathMatch: 'full'},

@@ -1,20 +1,20 @@
 using System;
 using System.Collections.Generic;
+using MizoChoka.API.Models;
 
-namespace MizoChoka.API.Models
+namespace MizoChoka.API.Dtos
 {
-    public class User
+    public class UserForDetailedDto
     {
         public int Id { get; set; }
         public string Username { get; set; }
-        public byte[] PasswordHash { get; set; }
-        public byte[] PasswordSalt { get; set; }
         public string Email { get; set; }
         public string Thuthar { get; set; }
         public DateTime Created { get; set; }
-        public string Ingredients { get; set; }
         public string RecipeName { get; set; }
+        public string Ingredients { get; set; }
         public string Steps { get; set; }
-        public ICollection<Photo> Photos { get; set; }
+        public string PhotoUrl { get; set; }
+        public ICollection<PhotosForDetailedDto> Photos { get; set; }
     }
 }

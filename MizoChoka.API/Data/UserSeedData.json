@@ -1,0 +1,112 @@
+[
+    {
+      "Username": "Juliet",
+      "Gender": "female",
+      "DateOfBirth": "1957-04-22",
+      "Password": "password",
+      "Email": "julietsharpe@kiggle.com",
+      "Created": "2017-05-06",
+      "Thuthar": "Irure exercitation ex deserunt commodo deserunt velit irure tempor est do excepteur.",
+      "Ingredients": "Anim officia occaecat consequat ullamco adipisicing esse ex irure quis cillum esse consectetur qui consectetur.",
+      "RecipeName": "Laborum sint esse nisi eu cupidatat proident minim esse eiusmod veniam et laboris.",
+      "Photos": [
+        {
+          "url": "https://randomuser.me/api/portraits/women/79.jpg",
+          "isMain": true,
+          "description": "Fugiat id in nisi officia consequat minim."
+        }
+      ]
+    },
+    {
+      "Username": "Kristine",
+      "Gender": "female",
+      "DateOfBirth": "1955-12-03",
+      "Password": "password",
+      "Email": "kristinesharpe@kiggle.com",
+      "Created": "2017-07-08",
+      "Thuthar": "Elit ea cillum ad ea anim do exercitation nulla aute mollit.",
+      "Ingredients": "Laboris esse fugiat dolor aliqua id amet.",
+      "RecipeName": "Anim et dolore officia cillum.",
+      "Photos": [
+        {
+          "url": "https://randomuser.me/api/portraits/women/36.jpg",
+          "isMain": true,
+          "description": "Ut qui eu consectetur sit occaecat adipisicing."
+        }
+      ]
+    },
+    {
+      "Username": "Shannon",
+      "Gender": "female",
+      "DateOfBirth": "1968-09-15",
+      "Password": "password",
+      "Email": "shannonsharpe@kiggle.com",
+      "Created": "2017-04-19",
+      "Thuthar": "Do consequat culpa aliquip exercitation Lorem laboris minim nostrud exercitation amet reprehenderit excepteur.",
+      "Ingredients": "Nisi in do consequat in ullamco.",
+      "RecipeName": "Ipsum minim ex sit eiusmod.",
+      "Photos": [
+        {
+          "url": "https://randomuser.me/api/portraits/women/94.jpg",
+          "isMain": true,
+          "description": "Est sunt proident magna ullamco esse non incididunt elit."
+        }
+      ]
+    },
+    
+        {
+          "Username": "Martin",
+          "Gender": "male",
+          "DateOfBirth": "1982-07-28",
+          "Password": "password",
+          "Email": "martinsharpe@kiggle.com",
+          "Created": "2017-02-02",
+          "Thuthar": "Officia adipisicing cupidatat culpa dolor incididunt laboris magna laborum non.",
+          "Ingredients": "Et Lorem ullamco ut voluptate officia sunt adipisicing est Lorem sunt ullamco dolor sint anim.",
+          "RecipeName": "Do aute dolore culpa eiusmod magna.",
+          "Photos": [
+            {
+              "url": "https://randomuser.me/api/portraits/men/61.jpg",
+              "isMain": true,
+              "description": "Anim nisi excepteur consequat amet labore consectetur elit qui."
+            }
+          ]
+        },
+        {
+          "Username": "Burns",
+          "Gender": "male",
+          "DateOfBirth": "1984-09-19",
+          "Password": "password",
+          "Email": "burnssharpe@kiggle.com",
+          "Created": "2017-05-09",
+          "Thuthar": "Magna velit Lorem culpa elit in.",
+          "Ingredients": "Dolor fugiat fugiat adipisicing do in et excepteur eu elit consectetur eiusmod.",
+          "RecipeName": "Ipsum dolor eiusmod veniam qui laboris voluptate proident qui.",
+          "Photos": [
+            {
+              "url": "https://randomuser.me/api/portraits/men/35.jpg",
+              "isMain": true,
+              "description": "Aliquip est eiusmod ipsum sunt in eu sunt minim ea do."
+            }
+          ]
+        },
+        {
+          "Username": "Rush",
+          "Gender": "male",
+          "DateOfBirth": "1985-03-19",
+          "Password": "password",
+          "Email": "rushsharpe@kiggle.com",
+          "Created": "2017-07-23",
+          "Thuthar": "Velit minim cillum nostrud quis voluptate nulla aliqua Lorem qui excepteur occaecat consequat.",
+          "Ingredients": "Ea est pariatur culpa consectetur.",
+          "RecipeName": "Ullamco cillum sunt commodo culpa consectetur laborum consequat sunt qui.",
+          "Photos": [
+            {
+              "url": "https://randomuser.me/api/portraits/men/64.jpg",
+              "isMain": true,
+              "description": "Ad irure enim in exercitation ex."
+            }
+          ]
+        }
+      
+  ]
