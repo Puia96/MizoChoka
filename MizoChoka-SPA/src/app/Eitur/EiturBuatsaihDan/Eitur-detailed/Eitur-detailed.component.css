@@ -1,0 +1,26 @@
+.img-thumbnail {
+    width: 90%;
+    height: 90%;
+    margin-top: 5%;
+    margin-bottom: 20px;
+    margin-left: 5%;
+    margin-right: 10%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+.card-body {
+    padding: 0 25px;
+}
+
+.crad-footer {
+    padding: 10px 15px;
+    background-color: #fff;
+    border-top: none;
+}
+
+
+
+
